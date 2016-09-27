@@ -5,6 +5,8 @@ class Review < ApplicationRecord
 
   # Validations
 
+  validates :stars, :presence => true
+
   validates :user_id, :presence => true
 
 end
