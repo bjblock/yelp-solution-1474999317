@@ -5,4 +5,6 @@ class Ownership < ApplicationRecord
 
   # Validations
 
+  validates :user_id, :presence => true
+
 end
