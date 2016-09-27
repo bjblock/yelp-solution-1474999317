@@ -1,5 +1,7 @@
 ActiveAdmin.register Restaurant do
 
+ permit_params :name, :street, :city, :state, :zip, :neighborhood, :total_stars, :number_of_reviews, :price, :lat, :lng, :description, :cover_image
+
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
 #
