@@ -5,4 +5,6 @@ class Tagging < ApplicationRecord
 
   # Validations
 
+  validates :tag_id, :presence => true
+
 end
