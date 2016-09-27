@@ -1,6 +1,9 @@
 class Review < ApplicationRecord
   # Direct associations
 
+  has_many   :pictures,
+             :dependent => :destroy
+
   belongs_to :user
 
   belongs_to :restaurant,
