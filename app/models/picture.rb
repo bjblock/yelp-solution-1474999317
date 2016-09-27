@@ -5,6 +5,8 @@ class Picture < ApplicationRecord
 
   # Validations
 
+  validates :image, :presence => true
+
   validates :review_id, :presence => true
 
 end
