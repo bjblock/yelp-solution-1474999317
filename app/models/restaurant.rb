@@ -5,6 +5,8 @@ class Restaurant < ApplicationRecord
 
   # Validations
 
+  validates :name, :presence => true
+
   validates :neighborhood, :presence => true
 
 end
